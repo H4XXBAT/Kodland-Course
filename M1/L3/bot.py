@@ -1,6 +1,6 @@
 import discord
 from bot_logic import gen_pass
-from settings_utils import settings
+from settings import settings
 
 # la variabile intents contiene i permessi al bot
 intents = discord.Intents.default()
